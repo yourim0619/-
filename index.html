@@ -12,7 +12,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <title>영화 기록장</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
@@ -95,6 +95,17 @@
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">영화 제목</label>
+          </div>
+          <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button">별점</button>
+            <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+              <option selected>별을 띄워주세요!</option>
+              <option value="one">⭐☆☆☆☆</option>
+              <option value="two">⭐⭐☆☆☆</option>
+              <option value="three">⭐⭐⭐☆☆</option>
+              <option value="four">⭐⭐⭐⭐☆</option>
+              <option value="five">⭐⭐⭐⭐⭐</option>
+            </select>
           </div>
           <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
